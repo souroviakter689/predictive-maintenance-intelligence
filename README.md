@@ -17,6 +17,23 @@ The application accepts machine operating parameters and displays
 an estimated failure probability with an alert based on the
 selected classification threshold.
 
+## 🧪 Application Testing
+
+The deployed Streamlit application was tested using three
+different machine operating configurations.
+
+| Test | Machine Type | Rotational Speed (rpm) | Torque (Nm) | Tool Wear (min) | Predicted Failure Probability | Result |
+|---|---|---:|---:|---:|---:|---|
+| Low-risk input | H | 1800 | 20 | 10 | 0.00% | Normal Status |
+| High-risk input | L | 1200 | 60 | 250 | 98.65% | Failure Alert |
+| Alternative input | M | 1500 | 40 | 100 | 0.03% | Normal Status |
+
+The application correctly applied the configured 60% alert
+threshold to these test cases.
+
+**Note:** These are functional application tests using a model
+trained on synthetic data. They do not establish real-world
+industrial reliability.
 ## 📌 Project Overview
 
 Unexpected machine failures can cause production interruptions, maintenance expenses, and equipment downtime.
