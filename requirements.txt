@@ -1,7 +1,6 @@
-
 streamlit
 pandas
 numpy
-scikit-learn
-lightgbm
-joblib
+scikit-learn==1.6.1
+lightgbm==4.6.0
+joblib==1.6.0
