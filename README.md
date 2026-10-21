@@ -9,6 +9,14 @@ An end-to-end machine learning project that predicts machine failure risk from o
 
 > Note: This project uses the synthetic UCI AI4I 2020 Predictive Maintenance dataset. Predictions require validation before any real industrial application.
 
+## 🖥️ Application Preview
+
+![Predictive Maintenance Application](screenshots/predictive-maintenance-app.png)
+
+The application accepts machine operating parameters and displays
+an estimated failure probability with an alert based on the
+selected classification threshold.
+
 ## 📌 Project Overview
 
 Unexpected machine failures can cause production interruptions, maintenance expenses, and equipment downtime.
