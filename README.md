@@ -124,7 +124,7 @@ The split was stratified to preserve the failure-class proportion.
 
 Randomized hyperparameter search with 5-fold stratified cross-validation was used to tune the Random Forest model. The search evaluated 20 parameter configurations using Average Precision as the selection metric; the best cross-validation Average Precision was 0.7709.
 
-**LightGBM tuning clarification:** In this notebook, LightGBM was trained with a specified configuration (`n\_estimators=300`, `max\_depth=6`, `learning\_rate=0.05`, `num\_leaves=31`, and a training-derived `scale\_pos\_weight`). The notebook does not show a separate LightGBM hyperparameter search. LightGBM was selected based on validation performance, and the classification threshold was separately selected using validation data. Therefore, the project reports Random Forest hyperparameter tuning and LightGBM threshold optimization—not LightGBM hyperparameter tuning.
+**LightGBM tuning clarification:** In this notebook, LightGBM was trained with a specified configuration (`n_estimators=300`, `max_depth=6`, `learning_rate=0.05`, `num_leaves=31`, and a training-derived `scale_pos_weight`). The notebook does not show a separate LightGBM hyperparameter search. LightGBM was selected based on validation performance, and the classification threshold was separately selected using validation data. Therefore, the project reports Random Forest hyperparameter tuning and LightGBM threshold optimization—not LightGBM hyperparameter tuning.
 
 ### Validation Model Comparison
 
