@@ -12,7 +12,7 @@ An end-to-end machine learning project that predicts machine failure risk from o
 
 ## 🖥️ Application Preview
 
-!\[Predictive Maintenance Application](predictive-maintenance-app.png)
+![Predictive Maintenance Application](predictive-maintenance-app.png)
 
 The application accepts machine operating parameters and displays
 an estimated failure probability with an alert based on the
